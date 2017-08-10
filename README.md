@@ -9,7 +9,7 @@ The first version of these maps are the same as found in this academic journal a
 There is an online version of these maps that coudn be found here: http://calculators.energy.utexas.edu/lcoe_map/#/county/tech
 	** note the change log on the map to indicate changes from the origional values found in the paper above.
 
-Running the code:
+Running the code: \
 	1. The language used is R: https://cran.r-project.org/
 	2. You will need the following R libraries to run the code:
 		library(maps)
