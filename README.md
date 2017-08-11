@@ -23,7 +23,7 @@ There are 4 base maps included in the prepackaged code above. The minimum cost t
 Create custom maps from the code: \
 	1. Edit the desired values in the xlsx files. \
 	2. Edit the figure title code. \
-		2.1 Example:  mtext(text = 'Scenario 1: without availability zones and without externalities', cex = 1.9, line = -1.25) #, col = 'white') \	
+		2.1 Example:  mtext(text = 'Scenario 1: without availability zones and without externalities', cex = 1.9, line = -1.25) \	
 	3. Save all files \
 	4. Run either the master code (Z_RUN_ALL_FCE_CODE.R), or the code for the single file that you wish to create.
 		
