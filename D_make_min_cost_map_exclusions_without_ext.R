@@ -51,7 +51,7 @@ D_make_min_cost_map_exclusions_without_ext <- function(){
 	ngcc_ccs_ex <- ngcc_ccs_ex[c('FIPS', 'can_build')]
 	
 	
-	setwd('Figures')
+
 	
 	red1 <- rgb(255/255,87/255,20/255)
 	blue1 <- rgb(27/255,231/255,255/255) 
@@ -174,6 +174,8 @@ D_make_min_cost_map_exclusions_without_ext <- function(){
 
   
   ###### MAKE SINGLE CHART ######
+  
+  	setwd('Figures')
   
   pdf(file = paste('Min_cost_map_without_ext_exclusions.pdf', sep = ''), height = 7, width = 9)
   par(mar=c(0,0,1,0)) #, bg = 'black', col = 'white')
